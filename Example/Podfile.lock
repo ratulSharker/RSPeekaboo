@@ -1,0 +1,16 @@
+PODS:
+  - RSPeekaboo (0.1.0)
+
+DEPENDENCIES:
+  - RSPeekaboo (from `../`)
+
+EXTERNAL SOURCES:
+  RSPeekaboo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RSPeekaboo: e71d60be8e4d8a2635a7f4affc23e849bfa00ea4
+
+PODFILE CHECKSUM: e4bdd1d5c484a5f2e7edc60a0a5b68b2e2e8f6bd
+
+COCOAPODS: 1.8.4

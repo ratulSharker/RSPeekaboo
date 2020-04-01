@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BC868E26FB8E805C65FEF52B992C25B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		101C6E5EC3C4591046CA05932F6B4592 /* RSPeekaboo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 74E5B29CF26651714029F347FCFFACD6 /* RSPeekaboo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1694B727F059B6B2E2796A9173D5FE46 /* RSPeekaboo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9108865E27FAE00A860A6C4327701634 /* RSPeekaboo.swift */; };
+		1AC559342732592FD0B42DDF452A8D06 /* Pods-RSPeekaboo_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F1AA94E5C1C3C4FA0A9C8A32139EDA /* Pods-RSPeekaboo_Example-dummy.m */; };
+		4116D0A3758BD96290CA496964634611 /* Pods-RSPeekaboo_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF8B3091B93E7CAC5E90655D56B657D4 /* Pods-RSPeekaboo_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C728EF6B2F172B5B3010F72D70C70A9 /* Pods-RSPeekaboo_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D3CE69B9DEDFBF2141465B0606930341 /* Pods-RSPeekaboo_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		790C83AAA648A6CFAFF78E18B63952FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		79E8E3887C299675DCD3316166013AEA /* Pods-RSPeekaboo_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A4BDA42ED32838FD5C7EA3BB6D6E74 /* Pods-RSPeekaboo_Tests-dummy.m */; };
+		A55C68B1079D7E8CC31DE83CF5872570 /* RSPeekaboo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA066905FEDB04B6428C50E6EF6F92DC /* RSPeekaboo-dummy.m */; };
+		F864F284A22DBBA34E4951AB3F4ACCBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01D7328DBEB2A823127254576821201D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A3EE6348FFFBAEA164FE58492E11370;
+			remoteInfo = RSPeekaboo;
+		};
+		EB69B212803AF6429F702269E07FBA6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57C8FC8EE3BFB361298DFE614050DF5E;
+			remoteInfo = "Pods-RSPeekaboo_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07F1AA94E5C1C3C4FA0A9C8A32139EDA /* Pods-RSPeekaboo_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RSPeekaboo_Example-dummy.m"; sourceTree = "<group>"; };
+		088687F15DAC8222C77FAA5E1A181FDA /* RSPeekaboo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RSPeekaboo-prefix.pch"; sourceTree = "<group>"; };
+		0BF0B598B61176421CF212E8470C93D8 /* Pods-RSPeekaboo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RSPeekaboo_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		1DDE89F990B60F45BC2BDBC848977E6B /* Pods-RSPeekaboo_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RSPeekaboo_Example-Info.plist"; sourceTree = "<group>"; };
+		23A4BDA42ED32838FD5C7EA3BB6D6E74 /* Pods-RSPeekaboo_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RSPeekaboo_Tests-dummy.m"; sourceTree = "<group>"; };
+		24018505BCD6F842A4957B05717870B7 /* Pods-RSPeekaboo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RSPeekaboo_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		39EA1860FE089F6B09D1A06853EEAE46 /* Pods_RSPeekaboo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RSPeekaboo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49716A44B10BDD5613C4B2B02C877AE5 /* Pods-RSPeekaboo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RSPeekaboo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		50E37E96DF4C94B89F789B40D0FC498F /* Pods-RSPeekaboo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RSPeekaboo_Example.release.xcconfig"; sourceTree = "<group>"; };
+		649A1811B08C0254AFE4690FC5CD79B2 /* Pods-RSPeekaboo_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RSPeekaboo_Example.modulemap"; sourceTree = "<group>"; };
+		6A936F18DD3F15D08B4B86BAB8A667E5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		747404A8D5DB732C84230F6974FAFB1A /* RSPeekaboo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RSPeekaboo.xcconfig; sourceTree = "<group>"; };
+		74E5B29CF26651714029F347FCFFACD6 /* RSPeekaboo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RSPeekaboo-umbrella.h"; sourceTree = "<group>"; };
+		77DACA3A2EF7C2A1E4BC7961F0FD75BB /* Pods-RSPeekaboo_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RSPeekaboo_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		878D76C17F0461E947B97979D37C36E7 /* Pods-RSPeekaboo_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RSPeekaboo_Tests-Info.plist"; sourceTree = "<group>"; };
+		8DC88749F0BE9B5B5892E6AA7766A1EF /* Pods_RSPeekaboo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RSPeekaboo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9108865E27FAE00A860A6C4327701634 /* RSPeekaboo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSPeekaboo.swift; path = RSPeekaboo/Classes/RSPeekaboo.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E9486FFE6100DEAE24C70BDF8AD0095 /* RSPeekaboo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = RSPeekaboo.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A3C6C571931700CF7CAB50EB7C7F718A /* Pods-RSPeekaboo_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RSPeekaboo_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B3F496C204F29BD19A6E45B3FE62405C /* RSPeekaboo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RSPeekaboo.modulemap; sourceTree = "<group>"; };
+		B3F839BC7CAD4894DBB65A74551FEF67 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		B6BCC232A2FA8EE8AB827E13B3993D42 /* RSPeekaboo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RSPeekaboo-Info.plist"; sourceTree = "<group>"; };
+		B70E776428538BE47C9D30267F63B2A6 /* Pods-RSPeekaboo_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RSPeekaboo_Tests.modulemap"; sourceTree = "<group>"; };
+		C5FD25196E9D2896669A1429FB3D8734 /* Pods-RSPeekaboo_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RSPeekaboo_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C7DBA6D0E888CAD8C88E1CC2FAD9E4E0 /* Pods-RSPeekaboo_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RSPeekaboo_Example-frameworks.sh"; sourceTree = "<group>"; };
+		CA066905FEDB04B6428C50E6EF6F92DC /* RSPeekaboo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RSPeekaboo-dummy.m"; sourceTree = "<group>"; };
+		D3CE69B9DEDFBF2141465B0606930341 /* Pods-RSPeekaboo_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RSPeekaboo_Example-umbrella.h"; sourceTree = "<group>"; };
+		DF8B3091B93E7CAC5E90655D56B657D4 /* Pods-RSPeekaboo_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RSPeekaboo_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E4638BB635C3E589D60FAA13CC1A3E96 /* RSPeekaboo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RSPeekaboo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC4289DA5BDE893B901A3860B826DED9 /* Pods-RSPeekaboo_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RSPeekaboo_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0465C128448163CD333BA120CA5F0C93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				790C83AAA648A6CFAFF78E18B63952FB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F4CAF102BB83C47140E32B99B6FF5F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BC868E26FB8E805C65FEF52B992C25B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFB5AACA752B182B9311A8F25EE72DBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F864F284A22DBBA34E4951AB3F4ACCBC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6AD8BB307E0D2E38C06C96DFF8B848B9 /* Pods-RSPeekaboo_Example */ = {
+			isa = PBXGroup;
+			children = (
+				649A1811B08C0254AFE4690FC5CD79B2 /* Pods-RSPeekaboo_Example.modulemap */,
+				A3C6C571931700CF7CAB50EB7C7F718A /* Pods-RSPeekaboo_Example-acknowledgements.markdown */,
+				77DACA3A2EF7C2A1E4BC7961F0FD75BB /* Pods-RSPeekaboo_Example-acknowledgements.plist */,
+				07F1AA94E5C1C3C4FA0A9C8A32139EDA /* Pods-RSPeekaboo_Example-dummy.m */,
+				C7DBA6D0E888CAD8C88E1CC2FAD9E4E0 /* Pods-RSPeekaboo_Example-frameworks.sh */,
+				1DDE89F990B60F45BC2BDBC848977E6B /* Pods-RSPeekaboo_Example-Info.plist */,
+				D3CE69B9DEDFBF2141465B0606930341 /* Pods-RSPeekaboo_Example-umbrella.h */,
+				0BF0B598B61176421CF212E8470C93D8 /* Pods-RSPeekaboo_Example.debug.xcconfig */,
+				50E37E96DF4C94B89F789B40D0FC498F /* Pods-RSPeekaboo_Example.release.xcconfig */,
+			);
+			name = "Pods-RSPeekaboo_Example";
+			path = "Target Support Files/Pods-RSPeekaboo_Example";
+			sourceTree = "<group>";
+		};
+		8165C83C52FBFFB9F56D1B81DE5F1319 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39EA1860FE089F6B09D1A06853EEAE46 /* Pods_RSPeekaboo_Example.framework */,
+				8DC88749F0BE9B5B5892E6AA7766A1EF /* Pods_RSPeekaboo_Tests.framework */,
+				E4638BB635C3E589D60FAA13CC1A3E96 /* RSPeekaboo.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C3F1B2C31EAEFEADF0BDCE4766FB742 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3F496C204F29BD19A6E45B3FE62405C /* RSPeekaboo.modulemap */,
+				747404A8D5DB732C84230F6974FAFB1A /* RSPeekaboo.xcconfig */,
+				CA066905FEDB04B6428C50E6EF6F92DC /* RSPeekaboo-dummy.m */,
+				B6BCC232A2FA8EE8AB827E13B3993D42 /* RSPeekaboo-Info.plist */,
+				088687F15DAC8222C77FAA5E1A181FDA /* RSPeekaboo-prefix.pch */,
+				74E5B29CF26651714029F347FCFFACD6 /* RSPeekaboo-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/RSPeekaboo";
+			sourceTree = "<group>";
+		};
+		A731037127B379F9459281F376AB8486 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B3F839BC7CAD4894DBB65A74551FEF67 /* LICENSE */,
+				6A936F18DD3F15D08B4B86BAB8A667E5 /* README.md */,
+				9E9486FFE6100DEAE24C70BDF8AD0095 /* RSPeekaboo.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B37ED0D400876DC457A855B6A82985F5 /* Pods-RSPeekaboo_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B70E776428538BE47C9D30267F63B2A6 /* Pods-RSPeekaboo_Tests.modulemap */,
+				EC4289DA5BDE893B901A3860B826DED9 /* Pods-RSPeekaboo_Tests-acknowledgements.markdown */,
+				C5FD25196E9D2896669A1429FB3D8734 /* Pods-RSPeekaboo_Tests-acknowledgements.plist */,
+				23A4BDA42ED32838FD5C7EA3BB6D6E74 /* Pods-RSPeekaboo_Tests-dummy.m */,
+				878D76C17F0461E947B97979D37C36E7 /* Pods-RSPeekaboo_Tests-Info.plist */,
+				DF8B3091B93E7CAC5E90655D56B657D4 /* Pods-RSPeekaboo_Tests-umbrella.h */,
+				49716A44B10BDD5613C4B2B02C877AE5 /* Pods-RSPeekaboo_Tests.debug.xcconfig */,
+				24018505BCD6F842A4957B05717870B7 /* Pods-RSPeekaboo_Tests.release.xcconfig */,
+			);
+			name = "Pods-RSPeekaboo_Tests";
+			path = "Target Support Files/Pods-RSPeekaboo_Tests";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CDA4F6D728635256212B7F88507AAC99 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6AD8BB307E0D2E38C06C96DFF8B848B9 /* Pods-RSPeekaboo_Example */,
+				B37ED0D400876DC457A855B6A82985F5 /* Pods-RSPeekaboo_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				EB840A09B51A43BEFC52089B8E698490 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				8165C83C52FBFFB9F56D1B81DE5F1319 /* Products */,
+				CDA4F6D728635256212B7F88507AAC99 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CF43D7DF002E6608A9384998AD5F763F /* RSPeekaboo */ = {
+			isa = PBXGroup;
+			children = (
+				9108865E27FAE00A860A6C4327701634 /* RSPeekaboo.swift */,
+				A731037127B379F9459281F376AB8486 /* Pod */,
+				9C3F1B2C31EAEFEADF0BDCE4766FB742 /* Support Files */,
+			);
+			name = RSPeekaboo;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB840A09B51A43BEFC52089B8E698490 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF43D7DF002E6608A9384998AD5F763F /* RSPeekaboo */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5C19B11AD78D4F87AD6B368DB52313C3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				101C6E5EC3C4591046CA05932F6B4592 /* RSPeekaboo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		912CC5DC6B930DF94CE5DCCBBEF34826 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C728EF6B2F172B5B3010F72D70C70A9 /* Pods-RSPeekaboo_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD53C21CEE866B5BDE0FC66A64490DBB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4116D0A3758BD96290CA496964634611 /* Pods-RSPeekaboo_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0A3EE6348FFFBAEA164FE58492E11370 /* RSPeekaboo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE631824DA103FDC1E577B35519D1B96 /* Build configuration list for PBXNativeTarget "RSPeekaboo" */;
+			buildPhases = (
+				5C19B11AD78D4F87AD6B368DB52313C3 /* Headers */,
+				CF4D430CF55F973EC4E31FF4E828E523 /* Sources */,
+				DFB5AACA752B182B9311A8F25EE72DBC /* Frameworks */,
+				6D4A7E3A060F25E5E7AB3E8204A946D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSPeekaboo;
+			productName = RSPeekaboo;
+			productReference = E4638BB635C3E589D60FAA13CC1A3E96 /* RSPeekaboo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		57C8FC8EE3BFB361298DFE614050DF5E /* Pods-RSPeekaboo_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1F4A8A46216891D28773C3019C17D4E /* Build configuration list for PBXNativeTarget "Pods-RSPeekaboo_Example" */;
+			buildPhases = (
+				912CC5DC6B930DF94CE5DCCBBEF34826 /* Headers */,
+				1A5DC6C84E7E60896CD229289ECC1783 /* Sources */,
+				0465C128448163CD333BA120CA5F0C93 /* Frameworks */,
+				7ED8B6E8B29AE56B52BDC60A0820C095 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6B9CB7E1B65E7DCA01228BBE501FE14 /* PBXTargetDependency */,
+			);
+			name = "Pods-RSPeekaboo_Example";
+			productName = "Pods-RSPeekaboo_Example";
+			productReference = 39EA1860FE089F6B09D1A06853EEAE46 /* Pods_RSPeekaboo_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D6103120C236E607D304ACAF54689C17 /* Pods-RSPeekaboo_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ED98CFF4E9186E78E44A28E6611B4FD /* Build configuration list for PBXNativeTarget "Pods-RSPeekaboo_Tests" */;
+			buildPhases = (
+				DD53C21CEE866B5BDE0FC66A64490DBB /* Headers */,
+				668ED280A6B0685F2717353BFBE11A2B /* Sources */,
+				6F4CAF102BB83C47140E32B99B6FF5F4 /* Frameworks */,
+				D4BBE7FEB3B862C232F3A36323BB4C3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2D06DCEB2166F70715DF17009E7993D /* PBXTargetDependency */,
+			);
+			name = "Pods-RSPeekaboo_Tests";
+			productName = "Pods-RSPeekaboo_Tests";
+			productReference = 8DC88749F0BE9B5B5892E6AA7766A1EF /* Pods_RSPeekaboo_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 8165C83C52FBFFB9F56D1B81DE5F1319 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57C8FC8EE3BFB361298DFE614050DF5E /* Pods-RSPeekaboo_Example */,
+				D6103120C236E607D304ACAF54689C17 /* Pods-RSPeekaboo_Tests */,
+				0A3EE6348FFFBAEA164FE58492E11370 /* RSPeekaboo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D4A7E3A060F25E5E7AB3E8204A946D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7ED8B6E8B29AE56B52BDC60A0820C095 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4BBE7FEB3B862C232F3A36323BB4C3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A5DC6C84E7E60896CD229289ECC1783 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AC559342732592FD0B42DDF452A8D06 /* Pods-RSPeekaboo_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		668ED280A6B0685F2717353BFBE11A2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E8E3887C299675DCD3316166013AEA /* Pods-RSPeekaboo_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF4D430CF55F973EC4E31FF4E828E523 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1694B727F059B6B2E2796A9173D5FE46 /* RSPeekaboo.swift in Sources */,
+				A55C68B1079D7E8CC31DE83CF5872570 /* RSPeekaboo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A6B9CB7E1B65E7DCA01228BBE501FE14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RSPeekaboo;
+			target = 0A3EE6348FFFBAEA164FE58492E11370 /* RSPeekaboo */;
+			targetProxy = 01D7328DBEB2A823127254576821201D /* PBXContainerItemProxy */;
+		};
+		E2D06DCEB2166F70715DF17009E7993D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-RSPeekaboo_Example";
+			target = 57C8FC8EE3BFB361298DFE614050DF5E /* Pods-RSPeekaboo_Example */;
+			targetProxy = EB69B212803AF6429F702269E07FBA6A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		19C1DCBB19A1525480A1313AD1F8AF52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24018505BCD6F842A4957B05717870B7 /* Pods-RSPeekaboo_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RSPeekaboo_Tests/Pods-RSPeekaboo_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RSPeekaboo_Tests/Pods-RSPeekaboo_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5C8F090381D8594EC858763A4E954A67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49716A44B10BDD5613C4B2B02C877AE5 /* Pods-RSPeekaboo_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RSPeekaboo_Tests/Pods-RSPeekaboo_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RSPeekaboo_Tests/Pods-RSPeekaboo_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		72D5B1F6C60056B6431BB4F46A0966FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 747404A8D5DB732C84230F6974FAFB1A /* RSPeekaboo.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RSPeekaboo/RSPeekaboo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RSPeekaboo/RSPeekaboo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RSPeekaboo/RSPeekaboo.modulemap";
+				PRODUCT_MODULE_NAME = RSPeekaboo;
+				PRODUCT_NAME = RSPeekaboo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AA7B6350ACF48E535C07F9234511440B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 747404A8D5DB732C84230F6974FAFB1A /* RSPeekaboo.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RSPeekaboo/RSPeekaboo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RSPeekaboo/RSPeekaboo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RSPeekaboo/RSPeekaboo.modulemap";
+				PRODUCT_MODULE_NAME = RSPeekaboo;
+				PRODUCT_NAME = RSPeekaboo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B3C72364087C024E186BFF3DFB1C9BFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50E37E96DF4C94B89F789B40D0FC498F /* Pods-RSPeekaboo_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RSPeekaboo_Example/Pods-RSPeekaboo_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RSPeekaboo_Example/Pods-RSPeekaboo_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D77C2E9CAAB593F3F4F47508416D1C00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BF0B598B61176421CF212E8470C93D8 /* Pods-RSPeekaboo_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RSPeekaboo_Example/Pods-RSPeekaboo_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RSPeekaboo_Example/Pods-RSPeekaboo_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4ED98CFF4E9186E78E44A28E6611B4FD /* Build configuration list for PBXNativeTarget "Pods-RSPeekaboo_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C8F090381D8594EC858763A4E954A67 /* Debug */,
+				19C1DCBB19A1525480A1313AD1F8AF52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE631824DA103FDC1E577B35519D1B96 /* Build configuration list for PBXNativeTarget "RSPeekaboo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72D5B1F6C60056B6431BB4F46A0966FA /* Debug */,
+				AA7B6350ACF48E535C07F9234511440B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1F4A8A46216891D28773C3019C17D4E /* Build configuration list for PBXNativeTarget "Pods-RSPeekaboo_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D77C2E9CAAB593F3F4F47508416D1C00 /* Debug */,
+				B3C72364087C024E186BFF3DFB1C9BFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

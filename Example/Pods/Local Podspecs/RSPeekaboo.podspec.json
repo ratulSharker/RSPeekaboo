@@ -1,0 +1,22 @@
+{
+  "name": "RSPeekaboo",
+  "version": "0.1.0",
+  "summary": "A short description of RSPeekaboo.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/sharker.ratul.08@gmail.com/RSPeekaboo",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "sharker.ratul.08@gmail.com": "Sharker.ratul.08@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/sharker.ratul.08@gmail.com/RSPeekaboo.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "RSPeekaboo/Classes/**/*"
+}

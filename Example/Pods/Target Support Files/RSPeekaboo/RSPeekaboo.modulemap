@@ -1,0 +1,6 @@
+framework module RSPeekaboo {
+  umbrella header "RSPeekaboo-umbrella.h"
+
+  export *
+  module * { export * }
+}
