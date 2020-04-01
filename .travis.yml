@@ -9,7 +9,7 @@ env:
  global:
   - WORKSPACE='Example/RSPeekaboo.xcworkspace'
   - EXAMPLE_SCHEME='RSPeekaboo-Example'
-  - IOS_DESTINATION='platform=iOS Simulator,name=iPhone 8,OS=13.2'
+  - IOS_DESTINATION='platform=iOS Simulator,name=iPhone 8,OS=13.3'
 
 # cache: cocoapods
 podfile: Example/Podfile
@@ -20,4 +20,4 @@ before_install:
  - pod install --project-directory=Example
 script:
 - set -o pipefail && xcodebuild test -enableCodeCoverage YES -workspace "$WORKSPACE"  -scheme "$EXAMPLE_SCHEME" -destination "$IOS_DESTINATION" ONLY_ACTIVE_ARCH=NO | xcpretty
-# - pod lib lint --allow-warnings
+- pod lib lint --allow-warnings
