@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RSPeekaboo_Example' do
+  pod 'RSPeekaboo', :path => '../'
+
+  target 'RSPeekaboo_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
