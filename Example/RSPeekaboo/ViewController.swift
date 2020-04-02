@@ -13,7 +13,7 @@ class ViewController: UIViewController {
 
     private var mLabel : UILabel {
         let view = UILabel(frame: .zero)
-        view.translatesAutoresizingMaskIntoConstraints = true
+        view.translatesAutoresizingMaskIntoConstraints = false
         view.backgroundColor = .darkGray
         view.text = "😉 Peekaboo"
         view.textAlignment = .center
@@ -35,7 +35,7 @@ class ViewController: UIViewController {
     
     @IBAction func peekabooPressed(_ sender: Any) {
         do {
-            try RSPeekaboo.shared.peek(view: mLabel, height: CGFloat(30.0))
+            try RSPeekaboo.shared.peek(view: mLabel, height: CGFloat(50.0))
             
             Timer.scheduledTimer(withTimeInterval: 2.0, repeats: false) { (timer) in
                 timer.invalidate()
@@ -45,7 +45,4 @@ class ViewController: UIViewController {
             print(error)
         }
     }
-    
-    
 }
-
