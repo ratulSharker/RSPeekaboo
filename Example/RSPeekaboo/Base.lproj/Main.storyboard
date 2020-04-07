@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Q11-Z3-dSQ">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Q11-Z3-dSQ">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--Tab Bar Controller-->
         <scene sceneID="C5I-gc-sHK">
             <objects>
-                <tabBarController id="Q11-Z3-dSQ" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="first_tabbar" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Q11-Z3-dSQ" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="L2b-Bh-6Nb">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -44,18 +44,73 @@
                                     <action selector="peekabooPressed:" destination="AEb-FF-WqV" eventType="touchUpInside" id="4vn-rc-B50"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mn4-7G-jbT">
+                                <rect key="frame" x="132.5" y="368.5" width="110" height="30"/>
+                                <state key="normal" title="Change window"/>
+                                <connections>
+                                    <action selector="changeWindow:" destination="AEb-FF-WqV" eventType="touchUpInside" id="GJL-wo-UPs"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.94901960784313721" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Lbu-kr-Dmq" firstAttribute="centerY" secondItem="7Vc-Ph-fD4" secondAttribute="centerY" id="UBo-wu-onw"/>
+                            <constraint firstItem="mn4-7G-jbT" firstAttribute="centerX" secondItem="Lbu-kr-Dmq" secondAttribute="centerX" id="bpY-RB-27v"/>
                             <constraint firstItem="Lbu-kr-Dmq" firstAttribute="centerX" secondItem="7Vc-Ph-fD4" secondAttribute="centerX" id="j8q-bt-59n"/>
+                            <constraint firstItem="mn4-7G-jbT" firstAttribute="top" secondItem="Lbu-kr-Dmq" secondAttribute="bottom" constant="20" id="v4D-Wn-G3a"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" systemItem="favorites" id="cBH-LH-xo2"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="opw-pO-UC5" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-580" y="27"/>
+            <point key="canvasLocation" x="-686" y="-450"/>
+        </scene>
+        <!--Second View Controller-->
+        <scene sceneID="eGM-xt-OoT">
+            <objects>
+                <viewController id="clX-6a-TNs" customClass="SecondViewController" customModule="RSPeekaboo_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ylA-qw-Fr6"/>
+                        <viewControllerLayoutGuide type="bottom" id="XnZ-5U-Sac"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="u1l-cy-4wp">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l9A-oS-sH5">
+                                <rect key="frame" x="124" y="318" width="127" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Move to peekaboo"/>
+                                <connections>
+                                    <action selector="changeWindow:" destination="clX-6a-TNs" eventType="touchUpInside" id="PtM-2J-GGo"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" systemItem="recents" id="CSc-AS-3mk"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x1D-rc-cpv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-687" y="553"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="m7L-9I-9mT">
+            <objects>
+                <tabBarController storyboardIdentifier="second_tabbar" useStoryboardIdentifierAsRestorationIdentifier="YES" id="uiD-XZ-0Xr" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Jtu-FT-FAZ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="clX-6a-TNs" kind="relationship" relationship="viewControllers" id="3Zk-ua-4SJ"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GPN-v2-mVu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1639" y="553"/>
         </scene>
     </scenes>
 </document>

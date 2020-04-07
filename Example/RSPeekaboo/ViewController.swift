@@ -45,4 +45,10 @@ class ViewController: UIViewController {
             print(error)
         }
     }
+    
+    @IBAction func changeWindow(_ sender: Any) {
+        if let secondTabbar = self.storyboard?.instantiateViewController(withIdentifier: "second_tabbar") {
+            UIApplication.shared.keyWindow?.rootViewController = secondTabbar
+        }
+    }
 }
