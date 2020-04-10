@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RSPeekaboo'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'Shows toast like messages.'
   s.swift_version    = '5.0'
 
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'sharker.ratul.08@gmail.com' => 'Sharker.ratul.08@gmail.com' }
-  s.source           = { :git => 'https://github.com/ratulSharker/RSPeekaboo.git', :tag => "v0.0.1" }
+  s.source           = { :git => 'https://github.com/ratulSharker/RSPeekaboo.git', :tag => "v0.0.2" }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'

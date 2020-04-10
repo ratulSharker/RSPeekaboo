@@ -15,6 +15,7 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		BBC512781219D91F3FE3E8D2 /* Pods_RSPeekaboo_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5406BD7FB54820A3680D7577 /* Pods_RSPeekaboo_Tests.framework */; };
+		CAC5E502243C6D1A009CA72C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC5E501243C6D1A009CA72C /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		A9108520A84A4BB31CF8E96F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B24491D30D0BE341ADACD432 /* Pods-RSPeekaboo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSPeekaboo_Example.debug.xcconfig"; path = "Target Support Files/Pods-RSPeekaboo_Example/Pods-RSPeekaboo_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BF323693A764EED2BD8E24D4 /* Pods_RSPeekaboo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RSPeekaboo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAC5E501243C6D1A009CA72C /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		EECCFD3572749305D814A10A /* Pods-RSPeekaboo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSPeekaboo_Tests.release.xcconfig"; path = "Target Support Files/Pods-RSPeekaboo_Tests/Pods-RSPeekaboo_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F3B43119F7F23C36A5EBC3D3 /* RSPeekaboo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RSPeekaboo.podspec; path = ../RSPeekaboo.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
@@ -104,6 +106,7 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				CAC5E501243C6D1A009CA72C /* SecondViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -330,6 +333,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAC5E502243C6D1A009CA72C /* SecondViewController.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
