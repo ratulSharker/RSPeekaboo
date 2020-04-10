@@ -1,9 +1,10 @@
 # RSPeekaboo
 
-[![CI Status](https://img.shields.io/travis/sharker.ratul.08@gmail.com/RSPeekaboo.svg?style=flat)](https://travis-ci.org/sharker.ratul.08@gmail.com/RSPeekaboo)
+[![CI Status](https://api.travis-ci.org/ratulSharker/RSPeekaboo.svg?branch=release)](https://travis-ci.org/sharker.ratul.08@gmail.com/RSPeekaboo)
 [![Version](https://img.shields.io/cocoapods/v/RSPeekaboo.svg?style=flat)](https://cocoapods.org/pods/RSPeekaboo)
 [![License](https://img.shields.io/cocoapods/l/RSPeekaboo.svg?style=flat)](https://cocoapods.org/pods/RSPeekaboo)
 [![Platform](https://img.shields.io/cocoapods/p/RSPeekaboo.svg?style=flat)](https://cocoapods.org/pods/RSPeekaboo)
+[![Swift](https://img.shields.io/badge/Swift-5.2-orange.svg)](https://swift.org)
 
 ## Example
 
@@ -22,7 +23,7 @@ pod 'RSPeekaboo'
 
 ## Author
 
-sharker.ratul.08@gmail.com, Sharker.ratul.08@gmail.com
+Ratul Sharker (sharker.ratul.08@gmail.com)
 
 ## License
 
